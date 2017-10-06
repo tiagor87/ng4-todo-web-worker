@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let todo of todos; let i = index; trackBy: i" (click)="del(i)">
+    {{todo}}
+  </li>
+</ul>
